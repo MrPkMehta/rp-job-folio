@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    body {
+        background-color: #fcf9f9;
+        padding: 5px 10px;
+       
+    }
+
+/* heDER SECTION */
+/* header logo */
+header img{
+    width: 70px;
+   border-radius: 0px 20px;
+   position: relative;
+   left: -65px;
+   margin-top: 2px;
+}
+    /* main header section */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(97, 95, 95);
+    height: 12vh;
+    /* width: 1490px; */
+    /* left: 15px; */
+    /* border-radius: 80px; */
+    margin-top: 2px;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 0 20px #000000; */
+}
+
+/* navigation bar */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+.list li:nth-child(1){
+    color: #ffffff;
+}
+
+/* reset list styling */
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    position: relative;
+    left: -30px;
+}
+
+.list li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.8px;
+}
+.list li a:hover {
+    color: rgb(8, 8, 8);
+}
+
+/* header button */
+button {
+    border: none;
+    padding: 10px 25px;
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #129b9e;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    border: 2px solid black;
+    letter-spacing: 0.8px;
+}
+
+button:hover {
+    background-color: #f6f2f2;
+    color:#000000;
+    border: solid 2px rgb(72, 70, 70);
+    font-weight: 800;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+/* hr {
+    padding: 1.5px;
+    background-color: black;
+    position: relative;
+    top: 2px;
+} */
+
+/* hero section */
+/* heading quote */
+.mq {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 30px;
+    top: -5px;
+    width: 1400px;
+    position: relative;
+    left: 57px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    background-color: rgb(246, 242, 242);
+    box-shadow: 0 0 15px;
+
+}
+span {
+    color: #129b9e;
+}
+/* left hero section */
+
+.Resume {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.Resume img {
+    width: 400px;
+    height: 65vh;
+    border: 2px solid #000000;
+}
+.Resume img:nth-child(2){
+    position: relative;
+    top: 150px;
+    left: -250px;
+}
+
+.Resume img:nth-child(3){
+    position: relative;
+    top: 300px;
+    left: -457px;
+}
+
+/* resume right hero section content*/
+
+
+.rhs-content h1 {
+    position: relative;
+    top: -270px;
+    left: 900px;
+    font-size:35px;
+    padding: 30px 20px;
+    width: 60lvb;
+    text-align: center;
+    font-weight: 400;
+    background-color: #f6f2f2;
+    /* border: #000000 2px solid; */
+    border-radius: 15px;
+    box-shadow: 0 0 7px;
+}
+
+/* build your resume button */
+.buildYourResume {
+    position: relative;
+    top: -290px;
+    left: 1020px;
+    padding: 8px 45px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #129b9e;
+    border: black 2px solid;
+}
+
+.buildYourResume:hover {
+    color: #020202;
+    box-shadow: 0 0 7px;
+    background-color: #f1e9e9;
+}
+
+
+
+/* portfolio section */
+
+
+.wrap {
+    position: relative;
+    top: 150px;
+    height: 100vh;
+}
+
+/* portfolio lhs content */
+.lhs-content h1 {
+    font-size:35px;
+    padding: 30px 20px;
+    width: 60lvb;
+    text-align: center;
+    font-weight: 400;
+    background-color: #f6f2f2;
+    position: relative;
+    top: -1020px;
+    left: 10px;
+    /* border: #000000 2px solid; */
+    border-radius: 15px;
+    box-shadow: 0 0 7px black;
+    
+}
+
+/* build your portfolio button   */
+.buildYourPortfolio {
+    position: relative;
+    top: -1040px;
+    padding: 8px 45px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #129b9e;
+    border: black 2px solid;
+}
+
+.buildYourPortfolio:hover {
+    color: #020202;
+    box-shadow: 0 0 7px;
+    background-color: #f1e9e9;
+}
+
+.portfolio {
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    margin-top: 450px;
+    /* background-color: #2d2c2c; */
+    height: 100vh;
+    position: relative;
+    top: -450px;
+}
+
+.portfolio img {
+    margin-top: 30px;
+    width: 600px;
+    height: 45vh;
+    border: 2px solid #000000;
+}
+
+.portfolio img:nth-child(1){
+    position: relative;
+    left: -400px;
+}
+
+.portfolio img:nth-child(2){
+    position: relative;
+    left: -200px;
+    top: -200px;
+}
+
+.portfolio img:nth-child(3){
+    position: relative;
+    top: -350px;
+    left: -10px;
+}
+
+/* guidelines to create resume  */
+.steps-to-make{
+    position: relative;
+    top: 400px;
+    
+}
+.steps-to-make h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.steps-to-make span {
+    font-size: 50px;
+}
+/* box alignment */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 90px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.box1 {
+    width: 50vb;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px ;
+    background-color: #fff;
+}
+
+.box2 {
+    width: 50vb;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px ;
+    background-color: #fff;
+}
+
+.box3 {
+    width: 50vb;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px ;
+    background-color: #fff;
+}
+
+
+/* footer section */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 700px;
+    padding-bottom: 30px;
+    background-color: black;
+    padding-top: 40px;
+    height: 50vh;
+}
+
+
+/* footer logo */
+/* .footer-logo {
+    position: relative;
+    top: -35px;
+    left: 230px;
+} */
+
+/* products section */
+.products {
+  color: #ffffff;
+  position: relative;
+  left: 300px;
+}
+
+.product-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+.product-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+    
+}
+.product-list li a:hover {
+    color: rgb(56, 56, 243);
+    font-weight: 700;
+}
+
+/* supprts section */
+.supports {
+    color: #ffffff;
+    position: relative;
+    left: 300px;
+}
+
+.supports-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+.supports-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+}
+
+.supports-list li a:hover {
+    color: rgb(56, 56, 243);
+    font-weight: 700;
+}
+
+/* subscription section */
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 300px;
+}
+
+.email {
+    padding: 12px 30px;
+    position: relative;
+    top: -80px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1e1e21;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 20px;
+    background-color: #1e1e21;
+    padding: 10px 10px;
+    color: #bdc0c2;
+    gap: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    background-color: rgb(56, 56, 243);
+} 
+
+/* socilal media link */
+
+.social-media {
+    position: relative;
+    left: -215px;
+    top: 40px;
+    
+}
+/* copy-right section */
+.copy-right {
+    color: #ffffff;
+    position: relative;
+    top: 40px;
+    line-height: 30px;
+}
+
+.social-media img:hover {
+    
+    border-radius: 50px;
+}
+
+.facebook {
+    width: 35px;
+    cursor: pointer;
+}
+
+.twitter {
+    width: 35px;
+    cursor: pointer;
+}
+.instagram {
+    width: 35px;
+    cursor: pointer;
+}
+.linkedin {
+    width: 35px;
+    cursor: pointer;
+}
+.github {
+    width: 35px;
+    cursor: pointer;
+    background-color: #1e1e21;
+    border-radius: 5px;
+}

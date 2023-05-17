@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+        background-color: #fcf9f9;
+        padding: 5px 10px;
+    }
+
+/* heDER SECTION */
+/* header logo */
+header img{
+    width: 70px;
+   border-radius: 0px 20px;
+   position: relative;
+   left: -65px;
+   margin-top: 2px;
+}
+    /* main header section */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(97, 95, 95);
+    height: 12vh;
+    /* width: 1490px; */
+    /* left: 15px; */
+    /* border-radius: 80px; */
+    margin-top: 2px;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 0 20px #000000; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* navigation bar */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+.list li:nth-child(1){
+    color: #ffffff;
+}
+
+/* reset list styling */
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    position: relative;
+    left: -30px;
+}
+
+.list li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.8px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+.list li a:hover {
+    color: rgb(8, 8, 8);
+
+}
+
+/* header button */
+button {
+    border: none;
+    padding: 10px 25px;
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #129b9e;
+    color: white;
+    border: #000000 2px solid;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    letter-spacing: 0.8px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+button:hover {
+    background-color: #f6f2f2;
+    color:#000000;
+    border: solid 2px rgb(72, 70, 70);
+    font-weight: 800;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+/* blog post  */
+h1 {
+    position: relative;
+    top: 25px;
+    font-size: 40px;
+    text-align: center;
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 8vh;
+}
+
+/* content box   */
+.box {
+    position: relative;
+    top: -15px;
+    height: 34vh;
+    width: 17lh;
+    font-size: 18.2px;
+    text-align: center;
+    border: #000000 2px solid;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+    background-color: #f3efef;
+}
+
+.content1 main div:nth-child(1) {
+    position: relative;
+    left: 40px;
+}
+
+.content1 main div:nth-child(3){
+    position: relative;
+    left: -40px;
+}
+
+span {
+    color: #129b9e;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    top: -7px;
+}
+
+.content2 main div:nth-child(1){
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.content2 main div p:nth-child(1) {
+    position: relative;
+    top: 50px;
+}
+
+.content2 main div:nth-child(2){
+    position: relative;
+    top: 30px;
+    left: -100px;
+    color: #373636;
+}
+
+p {
+    position: relative;
+    top: 20px;
+    color: #373636;
+}
+
+/* blog post on how to make job oriented resume */
+
+.blog_post {
+    height: 70vh;
+    width: 50%;
+    position: relative;
+    top: 140px;
+    text-align: justify;
+    left: 25%;
+    font-size: 18px;
+}
+
+/* article on post */
+
+/* list style */
+
+
+/* blog post ho wto make job oriented resume */
+
+.article_on_post {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer section */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    padding-bottom: 30px;
+    background-color: black;
+    padding-top: 40px;
+    height: 35vh;
+}
+
+
+/* footer logo */
+/* .footer-logo {
+    position: relative;
+    top: -35px;
+    left: 230px;
+} */
+
+/* products section */
+.products {
+  color: #ffffff;
+  position: relative;
+  left: 300px;
+}
+
+.product-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 38px;
+}
+
+.product-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+    
+}
+.product-list li a:hover {
+    color: rgb(56, 56, 243);
+    font-weight: 700;
+}
+
+/* supprts section */
+.supports {
+    color: #ffffff;
+    position: relative;
+    left: 300px;
+}
+
+.supports-list{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 38px;
+}
+
+.supports-list li a {
+    text-decoration: none;
+    color: #bdc0c2;
+}
+
+.supports-list li a:hover {
+    color: rgb(56, 56, 243);
+    font-weight: 700;
+}
+
+/* subscription section */
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 300px;
+}
+
+.email {
+    padding: 12px 30px;
+    position: relative;
+    top: -60px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1e1e21;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    display: flex;
+    position: relative;
+    top: -60px;
+    left: 20px;
+    background-color: #1e1e21;
+    padding: 10px 10px;
+    color: #bdc0c2;
+    gap: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    background-color: rgb(56, 56, 243);
+} 
+
+/* socilal media link */
+
+.social-media {
+    position: relative;
+    left: -215px;
+    top: 30px;
+    
+}
+/* copy-right section */
+.copy-right {
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.social-media img:hover {
+    
+    border-radius: 50px;
+}
+
+.facebook {
+    width: 35px;
+    cursor: pointer;
+}
+
+.twitter {
+    width: 35px;
+    cursor: pointer;
+}
+.instagram {
+    width: 35px;
+    cursor: pointer;
+}
+.linkedin {
+    width: 35px;
+    cursor: pointer;
+}
+.github {
+    width: 35px;
+    cursor: pointer;
+    background-color: #1e1e21;
+    border-radius: 5px;
+}
+
+
+
